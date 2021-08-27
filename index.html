@@ -4,10 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="index.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="src/css/main.css" rel="stylesheet" >
+
+    <title>GitHub API</title>
 </head>
 <body>
-    
+    <main class="container" >
+        <div class="main-searchContainer">
+            <h4>GitHub API</h4>
+
+            <form>
+                <div class="input-group mb-3">
+                    <input 
+                        type="text"
+                        placeholder="facebook"
+                        minlength="3"
+                        class="form-control" 
+                        name="name"
+                        required
+                    />
+                    <button class="btn btn-primary" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+
+        <h4 style="text-align: center;"></h4>
+        <div id="main-articlesContainer"></div>
+
+    </main>
+
+
+    <script type="module" src="./src/js/store.js"></script>
+    <script type="module" src="./src/js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 </body>
 </html>
