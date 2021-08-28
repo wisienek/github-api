@@ -1,11 +1,11 @@
-.noSelect{
+.noSelect {
     -webkit-touch-callout: none;
-      -webkit-user-select: none;
-       -khtml-user-select: none;
-         -moz-user-select: none;
-          -ms-user-select: none;
-              user-select: none;
-  }
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 
 .main-searchContainer {
     display: grid;
@@ -21,11 +21,11 @@
     margin: 30px;
 }
 
-#main-articlesContainer > article {
+#main-articlesContainer>article {
     border: 0.1em solid black;
     border-radius: 15px;
     padding: 1em;
-    
+
     cursor: pointer;
 }
 
@@ -43,7 +43,7 @@
     width: 100vw;
     height: 100vh;
 
-    background-color: rgba(0,0,0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 @media only screen and (max-width: 780px) {
